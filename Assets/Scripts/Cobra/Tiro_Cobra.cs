@@ -27,5 +27,8 @@ public class Tiro_Cobra : MonoBehaviour
         Vector2 direction = snakeMovement.direction;
 
         tiro.GetComponent<Rigidbody2D>().linearVelocity = new Vector2(direction.x, direction.y) * tiroSpeed;
+
     }
+
+
 }
